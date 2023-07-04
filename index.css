@@ -1,0 +1,598 @@
+body{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.frontpage{
+    background-image: url(bg-image.png);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 0;
+    margin-top: 0;
+}   
+
+@font-face {
+    font-family: Olivia Serif;
+    src: url(olivia-2oxq3.otf);
+  }
+
+#logo{
+    width: 130px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+#destination{   
+    margin:5px 0 0 150px;
+    border: none;
+    background: none;
+    font-family:'Serif', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#hotels{
+    margin: 5px 0 0 0;
+    border: none;
+    background: none;
+    font-family: 'Serif', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#Flights{
+    margin: 5px 0 0 0;
+    border: none;
+    background: none;
+    font-family: 'Serif', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#Bookings{
+    margin: 5px 0 0 0;
+    border: none;
+    background: none;
+    font-family: 'Serif', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#Login{
+    margin: 5px 0 0 0;
+    border: none;
+    background: none;
+    font-family: 'Serif', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#Sign{
+    margin: 5px 180px 0 0;
+    border: none;
+    background: none;
+    font-family: 'Serif', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.orange-hdr{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: none;
+    color: orangered;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.front-text{
+    margin-left: 50px;
+    font-size: 90px;
+    line-height: 0;
+    margin-top: 0%;
+    font-weight: 950;
+    color: #192841;
+    font-family: serif;
+}
+
+.front-page{
+    display: flex;
+}
+
+.front-foot{
+    display: flex;
+    margin-left: 50px;
+}
+
+#find{
+    background-color: orange;
+    margin-right: 90px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 100px orange;
+    font-size: 17px;
+    width: 180px;
+    color: white;
+}
+
+#play{
+    background-color: red;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 20px 100px red;
+    font-size: 17px;
+    color: white;
+    align-self: center;
+}
+
+#demo{
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+.sec-page{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 0.8;
+    color: #192841;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec-boxes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 130px;
+    border-radius: 15px;
+}
+
+.widthimg{
+    width: 100px;
+}
+
+.secbox{
+    width: 180px;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.margin-box{
+    margin-right: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+.colorhead{
+    color: #192841
+}
+
+.colorsub{
+    color: #474973;
+}
+
+.city{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color:#474973
+}
+
+.cityblocks{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 75px 0 50px;
+}
+
+.features{
+    display: flex;
+    color:#474973;
+    font-size: 19px;
+    line-height: 0.3;
+}
+
+.imgalign{
+    align-self: center;
+    margin-right: 20px;
+}
+
+#greece{
+    width: 350px;
+    height: 200px;
+}
+
+#icons{
+    display: block;
+}
+
+.parent{
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.child{
+    width: 220px;
+    position: absolute;
+    z-index: 2;
+    margin: 190px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+    line-height: 0.2;
+    padding: 5px;
+}
+
+.fastpage{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+
+.fastchild{
+    margin-right: 250px;
+    line-height: 0.8;
+}
+
+.fasthead1{
+    color:#474973;
+    font-size: 20px;
+}
+
+.fasthead2{
+    color:#192841;
+    font-size: 60px;
+    line-height: 0.5;
+}
+
+.overlap{
+    margin-top: 100px;
+    border-radius: 15px;
+    margin:auto;
+}
+
+.parent1{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.child1{
+    position: absolute;
+    z-index: 1;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.testim{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+
+.testhead{
+    margin-right: 350px;
+    line-height: 0.4;
+    font-size: 30px;
+    color: #192841;
+}
+
+.logos{
+    margin-top: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 70px;
+}
+
+#subscribe{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 130px;
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/230224150645-01-best-beaches-world-tripadvisor-2023-card.jpg?c=original);
+    background-size: cover;
+    width: 1000px;
+    height: 300px;
+    margin-left: 140px;
+    padding: 80px 30px 50px 30px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+
+.topright {
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    font-size: 18px;
+    width: 70px
+  }
+
+.foottitle{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightblue;
+    line-height: 0.8;
+}
+
+#inputfoot{
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 400px;
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+}
+
+#subscribefoot{
+    padding: 15px;
+    background-color: orangered;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 150px;
+    color: white;
+}
+
+.imgsoc2{
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.imgsoc{
+    width: 40px;
+    height: 40px;
+}
+
+.footmedia{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 180px;
+    margin-right: 70px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #474973;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yo{
+    margin-top: 20px;
+}
+
+.Rights{
+    font-size: 18px;
+    color: #474973;
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 500;
+}
+
+.hover-2 {
+    --c: #FFA500; 
+    --b: .1em;  
+    --d: 20px;   
+    
+    --_s: calc(var(--d) + var(--b));
+    
+    color: var(--c);
+    border: solid #0000;
+    border-width: var(--b) var(--b) var(--_s) var(--_s);
+    background:
+      conic-gradient(at left var(--d)  bottom var(--d),
+        #0000 90deg, rgb(255 255 255 /0.3) 0 225deg,rgb(255 255 255 /0.6) 0) border-box,
+      conic-gradient(at left var(--_s) bottom var(--_s),
+        #0000 90deg,var(--c) 0) 0 100%/calc(100% - var(--b)) calc(100% - var(--b))  border-box;
+    transform: translate(calc(var(--d)/-1),var(--d));
+    clip-path: 
+      polygon(
+       var(--d) 0%, 
+       var(--d) 0%, 
+       100% 0%, 
+       100% calc(100% - var(--d)),
+       100% calc(100% - var(--d)),
+       var(--d) calc(100% - var(--d))
+      );
+    transition: 0.5s;
+  }
+  .hover-2:hover {
+    transform: translate(0,0);
+    clip-path: 
+      polygon(
+       0% var(--d), 
+       var(--d) 0%, 
+       100% 0%, 
+       100% calc(100% - var(--d)), 
+       calc(100% - var(--d)) 100%, 
+       0% 100%
+     );
+  }
+
+@media(max-width: 1448px){
+    .front-text{
+        font-size: 80px;
+    }
+    .orange-hdr{
+        font-size: 16px
+    }
+}
+
+@media(max-width: 1389px){
+    .front-text{
+        font-size: 60px;
+    }
+    .orange-hdr{
+        font-size: 14px
+    }
+}
+
+@media(max-width: 1280px){
+    .front-text{
+        font-size: 40px;
+    }
+    .orange-hdr{
+        font-size: 12px
+    }
+}
+
+@media(max-width: 1176px){
+    .front-page{
+        display: block;
+        box-sizing: border-box;
+    }
+    .orange-hdr{
+        text-align: center;
+    }
+    .front-text{
+        text-align: center;
+    }
+    .sec-boxes{
+        display: grid;
+        margin: auto;
+    }
+    .secbox{
+        margin: 15px 0 15px 0;
+    }
+
+    .cityblocks{
+        display: grid;
+        margin: auto;
+    }
+    .city{
+        margin: 20px 0 20px 0;
+    }
+    .fastpage{
+        display: grid;
+        margin: auto;
+    }
+    .fastchild{
+        text-align: center;
+        margin:auto;
+    }
+    .overlap{
+        margin: auto;
+    }
+    .testim{
+        margin-top: 600px;
+        display: block;
+    }
+    .testhead{
+        text-align: center;
+        margin: auto;
+    }
+    .noice{
+        margin: 0 auto 580px auto;
+    }
+    .logos{
+        display: flex;
+        margin: auto;
+    }
+    .footmedia{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: auto auto; 
+    
+        grid-gap: 10px;
+        grid-auto-flow: column; 
+    
+        height: 150px;
+        margin: 200px auto 400px auto;
+    }
+    .front-text{
+        font-size: 80px;
+        margin: auto;
+    }
+    .orange-hdr{
+        font-size: 16px;
+        margin: auto;
+    }
+    #front-pic{
+        margin: auto;
+    }
+    #footer{
+        width: 100%;
+        height: 50%;
+        margin: 200px auto 200px auto;
+    }
+    .front-foot{
+        margin: auto;
+    }
+}
+
+.hover-3 {
+    --c: #040300; 
+    --b: .1em;  
+    --d: 20px;   
+    
+    --_s: calc(var(--d) + var(--b));
+    
+    color: var(--c);
+    border: solid #0000;
+    border-width: var(--b) var(--b) var(--_s) var(--_s);
+    background:
+      conic-gradient(at left var(--d)  bottom var(--d),
+        #0000 90deg, rgb(255 255 255 /0.3) 0 225deg,rgb(255 255 255 /0.6) 0) border-box,
+      conic-gradient(at left var(--_s) bottom var(--_s),
+        #0000 90deg,var(--c) 0) 0 100%/calc(100% - var(--b)) calc(100% - var(--b))  border-box;
+    transform: translate(calc(var(--d)/-1),var(--d));
+    clip-path: 
+      polygon(
+       var(--d) 0%, 
+       var(--d) 0%, 
+       100% 0%, 
+       100% calc(100% - var(--d)),
+       100% calc(100% - var(--d)),
+       var(--d) calc(100% - var(--d))
+      );
+    transition: 0.5s;
+  }
+  .hover-3:hover {
+    transform: translate(0,0);
+    clip-path: 
+      polygon(
+       0% var(--d), 
+       var(--d) 0%, 
+       100% 0%, 
+       100% calc(100% - var(--d)), 
+       calc(100% - var(--d)) 100%, 
+       0% 100%
+     );
+  }
