@@ -250,7 +250,7 @@ body{
 
 .fastchild{
     margin-right: 250px;
-    line-height: 0.8;
+    line-height: 0.5;
 }
 
 .fasthead1{
@@ -267,7 +267,6 @@ body{
 .overlap{
     margin-top: 100px;
     border-radius: 15px;
-    margin:auto;
 }
 
 .parent1{
